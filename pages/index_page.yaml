@@ -1,0 +1,2 @@
+index_page_elements:
+  btn_go_to_login_page: //div[@class="usermenu"]//a[contains(text(),"Log in")]

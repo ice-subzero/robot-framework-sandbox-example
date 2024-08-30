@@ -1,0 +1,4 @@
+robotframework==6.0.2   # Replace with the specific version you want
+robotframework-seleniumlibrary==6.5.0  # SeleniumLibrary for web automation
+robotframework-debuglibrary==2.3.0 # For debug in robot framework while running
+PyYAML==6.0 # For support to read .yaml file

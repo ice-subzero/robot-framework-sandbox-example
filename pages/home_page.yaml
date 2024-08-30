@@ -1,0 +1,3 @@
+home_page_elements:
+  btn_user_profile: id=user-menu-toggle
+  ddl_logout: //a[contains(text(),"Log out") and @class="dropdown-item"]

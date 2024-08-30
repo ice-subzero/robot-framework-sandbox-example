@@ -1,0 +1,4 @@
+login_page_elements:
+  txt_username: id=username
+  txt_password: id=password
+  btn_login: id=loginbtn

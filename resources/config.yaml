@@ -1,0 +1,3 @@
+base_url: https://sandbox.moodledemo.net/login/index.php
+web_browser: chrome
+TIMEOUT: 15s
