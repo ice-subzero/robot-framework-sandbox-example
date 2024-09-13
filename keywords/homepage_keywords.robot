@@ -16,3 +16,6 @@ Verify login success message
     [Arguments]    ${message}
     SeleniumLibrary.Wait Until Page Contains    ${message}    15s
     SeleniumLibrary.Page Should Contain    ${message}
+
+Click on settings page
+    common_keywords.Wait element ready and Click    xpath=//a[contains(.,"Settings")]

@@ -1,5 +1,5 @@
 admin_user: admin
-correct_password: sandbox
+correct_password: sandbox24
 incorrect_password: 12345678
 welcome_message_for_admin_user: Hi, Admin
 login_fail_message: Invalid login, please try again

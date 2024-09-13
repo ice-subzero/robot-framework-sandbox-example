@@ -16,3 +16,10 @@ Wait element ready and Click
     # SeleniumLibrary.Wait Until Element Is Visible    ${locator}
     # SeleniumLibrary.Click Element    ${locator}
     Wait Until Keyword Succeeds    15x    1s    SeleniumLibrary.Click Element    ${locator}
+
+Capture fullscreen page
+    ${width}=    Execute JavaScript    return document.body.scrollWidth;
+    ${height}=    Execute JavaScript    return document.body.scrollHeight;
+    Log    Full Page Width: ${width}, Full Page Height: ${height}
+    Set Window Size    ${width}    ${height}
+    Capture Page Screenshot

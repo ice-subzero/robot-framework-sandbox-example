@@ -1,3 +1,4 @@
 base_url: https://sandbox.moodledemo.net/login/index.php
 web_browser: chrome
+chrome_headless: headlesschrome
 TIMEOUT: 15s
